@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artanti Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" class="bg-figma text-white min-h-screen">
+
+    <header class="fixed top-0 w-full z-50 px-10 py-8 flex items-center justify-between">
+        <div class="flex items-center gap-2 reveal">
+            <i class="bi bi-stars text-purple-400 text-xl"></i>
+            <span class="text-xl font-extrabold tracking-tighter">Artanti</span>
+        </div>
+
+        <nav class="bg-[#2D2D2D]/40 backdrop-blur-xl border border-white/10 rounded-full px-6 py-2.5 flex items-center gap-8 shadow-2xl reveal">
+            <a href="#" class="text-[10px] tracking-[0.2em] font-bold text-gray">HOME</a>
+            <a href="#about" class="text-[10px] tracking-[0.2em] font-bold text-gray-400 hover:text-white transition">ABOUT</a>
+            <a href="#skills" class="text-[10px] tracking-[0.2em] font-bold text-gray-400 hover:text-white transition">SKILLS</a>
+            <a href="#projects" class="text-[10px] tracking-[0.2em] font-bold text-gray-400 hover:text-white transition">PROJECTS</a>
+        </nav>
+
+        <div class="flex items-center gap-3 mr-6">
+            <a href="#contact" class="bg-white text-black text-[10px] tracking-[0.2em] font-extrabold px-6 py-2.5 rounded-full hover:bg-purple-600 hover:text-white transition shadow-lg">CONTACT</a> 
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-10 pt-52 pb-20 flex flex-col md:flex-row items-center justify-between gap-10">
+        
+        <div class="w-full md:w-1/2 space-y-6">
+            <div class="flex items-center gap-2 text-[11px] font-bold text-purple-400 tracking-[0.2em] reveal">
+                <i class="bi bi-stars"></i> AVAILABLE FOR OPPORTUNITIES
+            </div>
+
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-[1.1] tracking-tight reveal" style="transition-delay: 0.1s;">
+                Hey, I'm Artanti,<br>
+                <span class="text-white/50">a Junior Web Developer</span>
+            </h1>
+
+            <p class="text-gray-400 text-sm md:text-base max-w-md leading-relaxed reveal" style="transition-delay: 0.2s;">
+                Learning and growing in the world of web development while improving skills in coding and web design.
+            </p>
+
+            <div class="flex items-center gap-4 py-2 reveal" style="transition-delay: 0.3s;">
+                <a href="https://wa.me/6285647703691" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-purple-500 hover:text-purple-400 transition"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@moodofrose" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-purple-500 hover:text-purple-400 transition"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/an_wulandari/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-purple-500 hover:text-purple-400 transition"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/artantinayla" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 hover:border-purple-500 hover:text-purple-400 transition"><i class="bi bi-github"></i></a>
+            </div>
+
+            <a href="#about">
+            <button class="reveal mt-4 bg-white text-black text-[10px] font-extrabold tracking-[0.2em] px-8 py-4 rounded-full hover:bg-purple-600 hover:text-white transition-all shadow-xl" style="transition-delay: 0.4s;">
+                ABOUT ME
+            </button>
+            </a>
+        </div>
+
+        <div class="w-full md:w-1/2 flex justify-end reveal" style="transition-delay: 0.2s;">
+            <div class="relative group">
+                <div class="absolute -inset-10 bg-purple-600/20 blur-[80px] rounded-full group-hover:bg-purple-500/40 transition duration-700"></div>
+                
+                <div class="relative w-72 h-80 md:w-[380px] md:h-[450px] hexagon-shape bg-gradient-to-b from-purple-500/50 to-transparent p-[1.5px]">
+                    <div class="w-full h-full hexagon-shape bg-[#1e1e1e] overflow-hidden flex items-end">
+                        <img src="asset/foto.png" alt="Artanti" class="w-full h-full object-cover transition duration-1000 transform group-hover:scale-110">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="about" class="relative min-h-screen flex items-center justify-center px-10 py-24 bg-[#1E1E1E]">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_#3b0764_0%,_#1e1e1e_50%)] opacity-50"></div>
+
+    <div class="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center gap-16 relative z-10">
+        
+        <div class="flex justify-center md:justify-start reveal-about">
+            <div class="relative group">
+                <div class="absolute -inset-4 bg-purple-500/20 blur-3xl rounded-full group-hover:bg-purple-500/40 transition duration-700"></div>
+                
+                <div class="relative w-64 h-64 md:w-[400px] md:h-[400px] rounded-full p-[2px] bg-gradient-to-tr from-purple-500 to-transparent">
+                    <div class="w-full h-full rounded-full bg-[#1e1e1e] overflow-hidden">
+                        <img src="asset/foto.png" alt="Artanti About" class="w-full h-full object-cover transition duration-1000 scale-110 group-hover:scale-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-y-6">
+            <div class="reveal-about" style="transition-delay: 0.2s;">
+                <span class="text-purple-400 text-[10px] font-bold tracking-[0.4em] uppercase">About Me</span>
+            </div>
+            
+            <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight reveal-about" style="transition-delay: 0.3s;">
+                Hello, I'm Artanti
+            </h2>
+
+            <p class="text-gray-400 text-sm md:text-base leading-relaxed reveal-about" style="transition-delay: 0.4s;">
+                I'm a Junior Web Developer who is passionate about web development, coding, and digital design. I enjoy learning new things, exploring creativity, and building modern, responsive websites. I'm continuously improving my skills to create useful and engaging digital experiences. Currently open to new opportunities and collaborations. Let’s connect and turn your ideas into functional, beautifully designed web experiences!
+            </p>
+
+            <a href="asset/recount text.pdf" target="_blank" class="block no-underline">
+            <div class="pt-4 reveal-about" style="transition-delay: 0.5s;">
+                <button class="bg-white text-black text-[10px] font-extrabold tracking-[0.2em] px-10 py-4 rounded-full hover:bg-purple-600 hover:text-white transition-all shadow-xl uppercase">
+                    My Experience
+                </button>
+            </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="relative min-h-screen flex items-center justify-center px-10 py-24 bg-[#1E1E1E]">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_#3b0764_0%,_#1e1e1e_70%)] opacity-40"></div>
+
+    <div class="max-w-5xl mx-auto w-full relative z-10">
+        <div class="text-center mb-20 reveal-skill">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-purple-500 mb-2">My Skills</h2>
+            <p class="text-gray-400 text-sm tracking-widest uppercase">Technologies I work with</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
+            
+            <div class="skill-item reveal-skill">
+                <div class="flex items-center gap-4 mb-3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="w-8 h-8" alt="HTML">
+                    <span class="text-xs font-bold tracking-widest uppercase">HTML</span>
+                </div>
+                <div class="h-6 w-full bg-white/10 rounded-full p-1 relative overflow-hidden">
+                    <div class="progress-bar h-full rounded-full bg-gradient-to-r from-orange-600 to-orange-400 shadow-[0_0_15px_rgba(234,88,12,0.5)]" data-width="80%">
+                        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[10px] font-bold">80%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item reveal-skill">
+                <div class="flex items-center gap-4 mb-3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-8 h-8" alt="CSS">
+                    <span class="text-xs font-bold tracking-widest uppercase">CSS</span>
+                </div>
+                <div class="h-6 w-full bg-white/10 rounded-full p-1 relative overflow-hidden">
+                    <div class="progress-bar h-full rounded-full bg-gradient-to-r from-blue-600 to-blue-400 shadow-[0_0_15px_rgba(37,99,235,0.5)]" data-width="75%">
+                        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[10px] font-bold">75%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item reveal-skill">
+                <div class="flex items-center gap-4 mb-3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="w-8 h-8" alt="JS">
+                    <span class="text-xs font-bold tracking-widest uppercase">JAVASCRIPT</span>
+                </div>
+                <div class="h-6 w-full bg-white/10 rounded-full p-1 relative overflow-hidden">
+                    <div class="progress-bar h-full rounded-full bg-gradient-to-r from-yellow-500 to-yellow-300 shadow-[0_0_15px_rgba(234,179,8,0.5)]" data-width="65%">
+                        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[10px] font-bold">65%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item reveal-skill">
+                <div class="flex items-center gap-4 mb-3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="w-8 h-8" alt="Figma">
+                    <span class="text-xs font-bold tracking-widest uppercase">FIGMA</span>
+                </div>
+                <div class="h-6 w-full bg-white/10 rounded-full p-1 relative overflow-hidden">
+                    <div class="progress-bar h-full rounded-full bg-gradient-to-r from-purple-600 to-purple-400 shadow-[0_0_15px_rgba(147,51,234,0.5)]" data-width="85%">
+                        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[10px] font-bold">85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item reveal-skill">
+                <div class="flex items-center gap-4 mb-3">
+                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" class="w-8 h-8" alt="Tailwind">
+                    <span class="text-xs font-bold tracking-widest uppercase">TAILWIND</span>
+                </div>
+                <div class="h-6 w-full bg-white/10 rounded-full p-1 relative overflow-hidden">
+                    <div class="progress-bar h-full rounded-full bg-gradient-to-r from-cyan-500 to-cyan-300 shadow-[0_0_15px_rgba(6,182,212,0.5)]" data-width="70%">
+                        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[10px] font-bold">70%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item reveal-skill">
+                <div class="flex items-center gap-4 mb-3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="w-8 h-8" alt="Bootstrap">
+                    <span class="text-xs font-bold tracking-widest uppercase">BOOTSTRAP</span>
+                </div>
+                <div class="h-6 w-full bg-white/10 rounded-full p-1 relative overflow-hidden">
+                    <div class="progress-bar h-full rounded-full bg-gradient-to-r from-pink-600 to-pink-400 shadow-[0_0_15px_rgba(219,39,119,0.5)]" data-width="77%">
+                        <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[10px] font-bold">77%</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="relative min-h-screen flex flex-col items-center justify-center px-10 py-24 bg-[#1E1E1E]">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_#3b0764_0%,_#1e1e1e_60%)] opacity-30"></div>
+
+    <div class="max-w-6xl mx-auto w-full relative z-10">
+        <div class="text-center mb-16 reveal-project">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-purple-500 mb-4">My Projects</h2>
+            <p class="text-gray-400 text-sm md:text-base max-w-2xl mx-auto">
+                Here are some of the projects I've built while learning web development.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            
+            <div class="group bg-[#2A2A2A] rounded-2xl overflow-hidden border border-white/5 transition-all duration-500 reveal-project shadow-xl">
+                <div class="relative overflow-hidden h-48">
+                    <img src="asset/project1.png" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <div class="p-6 space-y-3 bg-gradient-to-b from-[#311b92]/80 to-[#1E1E1E]">
+                    <h3 class="text-xl font-bold">From Secondhand to Classy</h3>
+                    <p class="text-[11px] text-gray-400 leading-relaxed line-clamp-2">
+                        Transforming pre-owned items into stylish, elegant, and valuable products.
+                    </p>
+                    <a href="https://dezanosaurus.vercel.app/" target="_blank" class="btn-read-more">
+                    <button class="mt-4 px-6 py-2 bg-purple-600 text-white text-[10px] font-bold rounded-full hover:bg-white hover:text-black transition-all shadow-lg shadow-purple-900/20 uppercase tracking-widest">
+                        Read More
+                    </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="group bg-[#2A2A2A] rounded-2xl overflow-hidden border border-white/5 transition-all duration-500 reveal-project shadow-xl">
+                <div class="relative overflow-hidden h-48">
+                    <img src="asset/project2.png" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <div class="p-6 space-y-3 bg-gradient-to-b from-[#311b92]/80 to-[#1E1E1E]">
+                    <h3 class="text-xl font-bold">School Website</h3>
+                    <p class="text-[11px] text-gray-400 leading-relaxed line-clamp-2">
+                        A modern and informative school website that makes access easier for students and teachers.
+                    </p>
+                    <a href="https://artantinayla.github.io/Tugas2_Bootstrap/" target="_blank" class="btn-read-more">
+                    <button class="mt-4 px-6 py-2 bg-purple-600 text-white text-[10px] font-bold rounded-full hover:bg-white hover:text-black transition-all shadow-lg shadow-purple-900/20 uppercase tracking-widest">
+                        Read More
+                    </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="group bg-[#2A2A2A] rounded-2xl overflow-hidden border border-white/5 transition-all duration-500 reveal-project shadow-xl">
+                <div class="relative overflow-hidden h-48">
+                    <img src="asset/project3.png" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <div class="p-6 space-y-3 bg-gradient-to-b from-[#311b92]/80 to-[#1E1E1E]">
+                    <h3 class="text-xl font-bold">Environment</h3>
+                    <p class="text-[11px] text-gray-400 leading-relaxed line-clamp-2">
+                        Everything around us, including nature, people, and living things.
+                    </p>
+                    <a href="https://artantinayla.github.io/tugas3_bootstrap/" target="_blank" class="btn-read-more">
+                    <button class="mt-4 px-6 py-2 bg-purple-600 text-white text-[10px] font-bold rounded-full hover:bg-white hover:text-black transition-all shadow-lg shadow-purple-900/20 uppercase tracking-widest">
+                        Read More
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="group bg-[#2A2A2A] rounded-2xl overflow-hidden border border-white/5 transition-all duration-500 reveal-project shadow-xl">
+                <div class="relative overflow-hidden h-48">
+                    <img src="asset/project4.png" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <div class="p-6 space-y-3 bg-gradient-to-b from-[#311b92]/80 to-[#1E1E1E]">
+                    <h3 class="text-xl font-bold">Globe Trekker</h3>
+                    <p class="text-[11px] text-gray-400 leading-relaxed line-clamp-2">
+                        A journey to explore different places, cultures, and experiences.
+                    </p>
+                    <a href="https://artantinayla.github.io/tugas4/" target="_blank" class="btn-read-more">
+                    <button class="mt-4 px-6 py-2 bg-purple-600 text-white text-[10px] font-bold rounded-full hover:bg-white hover:text-black transition-all shadow-lg shadow-purple-900/20 uppercase tracking-widest">
+                        Read More
+                    </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="group bg-[#2A2A2A] rounded-2xl overflow-hidden border border-white/5 transition-all duration-500 reveal-project shadow-xl">
+                <div class="relative overflow-hidden h-48">
+                    <img src="asset/project5.png" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <div class="p-6 space-y-3 bg-gradient-to-b from-[#311b92]/80 to-[#1E1E1E]">
+                    <h3 class="text-xl font-bold">FastShop</h3>
+                    <p class="text-[11px] text-gray-400 leading-relaxed line-clamp-2">
+                        A place to shop for stylish fashion products and everyday needs.
+                    </p>
+                    <a href="https://artantinayla.github.io/tugas5/" target="_blank" class="btn-read-more">
+                    <button class="mt-4 px-6 py-2 bg-purple-600 text-white text-[10px] font-bold rounded-full hover:bg-white hover:text-black transition-all shadow-lg shadow-purple-900/20 uppercase tracking-widest">
+                        Read More
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="relative min-h-screen flex items-center justify-center py-20 bg-[#1E1E1E]">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_#3b0764_0%,_#1e1e1e_70%)] opacity-40"></div> 
+
+    <div class="container mx-auto px-6 md:px-12 lg:px-20 relative z-10 w-full">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start w-full">
+            
+            <div class="lg:col-span-5 space-y-6 w-full">
+                <div class="reveal-contact">
+                    <h2 class="text-5xl md:text-6xl font-extrabold tracking-tighter mb-1">CONTACT</h2>
+                    <h2 class="text-5xl md:text-6xl font-extrabold tracking-tighter text-purple-500/50">ME</h2>
+                    <p class="text-gray-400 mt-5 max-w-sm leading-relaxed text-sm">
+                        Feel free to reach out to me through any of the platforms below.
+                    </p>
+                </div>
+
+                <div class="flex items-center gap-4 bg-[#26222F] border border-white/5 rounded-2xl p-4 w-full transition-all hover:border-purple-500/30">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=artantinaylawulandari3@gmail.com" class="flex-shrink-0 w-12 h-12 rounded-xl bg-[#8A33FD] flex items-center justify-center hover:scale-110 hover:bg-[#7220e3] transition-all duration-300">
+                        <i class="bi bi-envelope text-white text-xl"></i>
+                    </a>
+                    <div class="flex flex-col min-w-0">
+                        <span class="text-[10px] font-bold text-gray-400 tracking-wider uppercase">Email</span>
+                        <span class="text-white font-medium text-sm break-all">
+                            artantinaylawulandari3@gmail.com
+                        </span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6285647703691" target="_blank" rel="noopener noreferrer" class="w-full block no-underline">
+                    <div class="reveal-contact flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all group">
+                        <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-green-600 rounded-xl group-hover:scale-110 transition">
+                            <i class="bi bi-whatsapp text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">WhatsApp</p>
+                            <p class="text-sm font-semibold text-white">+62 856-4770-3691</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/an_wulandari/" target="_blank" rel="noopener noreferrer" class="w-full block no-underline">
+                    <div class="reveal-contact flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all group">
+                        <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-pink-600 rounded-xl group-hover:scale-110 transition">
+                            <i class="bi bi-instagram text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Instagram</p>
+                            <p class="text-sm font-semibold text-white">@an_wulandari</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/artantinayla" target="_blank" rel="noopener noreferrer" class="w-full block no-underline">
+                    <div class="reveal-contact flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/10 hover:border-purple-500/50 transition-all group">
+                        <div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-gray-800 rounded-xl group-hover:scale-110 transition">
+                            <i class="bi bi-github text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">GitHub</p>
+                            <p class="text-sm font-semibold text-white">artantinayla</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="lg:col-span-7 w-full">
+                <div class="reveal-contact bg-[#252525] p-6 md:p-10 rounded-[2rem] border border-white/5 shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-600/10 blur-[50px]"></div>
+                    
+                    <h3 class="text-2xl font-bold mb-1">Get in touch</h3>
+                    <p class="text-gray-400 text-sm mb-6">Have a project in mind or just want to say hello? Fill out the form below.</p>
+
+                    <form class="space-y-4">
+                        <div class="space-y-1.5">
+                            <label class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] ml-1">Your Name</label>
+                            <div class="relative">
+                                <i class="bi bi-person absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"></i>
+                                <input type="text" placeholder="Your Name" class="w-full bg-[#1E1E1E] border border-white/10 rounded-xl py-3.5 pl-12 pr-4 text-sm text-white focus:border-purple-500 focus:ring-1 focus:ring-purple-500 outline-none transition-all">
+                            </div>
+                        </div>
+
+                        <div class="space-y-1.5">
+                            <label class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] ml-1">Your Email</label>
+                            <div class="relative">
+                                <i class="bi bi-envelope absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"></i>
+                                <input type="email" placeholder="hello@example.com" class="w-full bg-[#1E1E1E] border border-white/10 rounded-xl py-3.5 pl-12 pr-4 text-sm text-white focus:border-purple-500 focus:ring-1 focus:ring-purple-500 outline-none transition-all">
+                            </div>
+                        </div>
+
+                        <div class="space-y-1.5">
+                            <label class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] ml-1">Your Message</label>
+                            <div class="relative">
+                                <i class="bi bi-chat-left-dots absolute left-4 top-4 text-gray-500"></i>
+                                <textarea rows="4" placeholder="How can I help you?" class="w-full bg-[#1E1E1E] border border-white/10 rounded-xl py-3.5 pl-12 pr-4 text-sm text-white focus:border-purple-500 focus:ring-1 focus:ring-purple-500 outline-none transition-all resize-none"></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="w-full bg-purple-600 hover:bg-white hover:text-black text-white font-bold py-3.5 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 group shadow-lg shadow-purple-900/20 mt-2">
+                            <span>Send Message</span>
+                            <i class="bi bi-send-fill group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="bg-[#1A1A1A] text-white pt-20 pb-10 px-10 border-t border-white/5 relative overflow-hidden">
+    <div class="absolute bottom-0 right-0 w-64 h-64 bg-purple-600/10 blur-[100px] rounded-full"></div>
+
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            
+            <div class="col-span-1 md:col-span-1 space-y-4 reveal-footer">
+                <div class="flex items-center gap-2">
+                    <i class="bi bi-stars text-purple-400 text-2xl"></i>
+                    <span class="text-2xl font-bold tracking-tighter">Artanti</span>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-xs">
+                    I build responsive and user-friendly web experiences with clean code and modern design.
+                </p>
+            </div>
+
+            <div class="reveal-footer" style="transition-delay: 0.1s;">
+                <h4 class="text-[10px] font-extrabold tracking-[0.3em] uppercase text-purple-500 mb-6">Navigation</h4>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
+                    <li><a href="#skills" class="hover:text-white transition-colors">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-white transition-colors">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="reveal-footer" style="transition-delay: 0.2s;">
+                <h4 class="text-[10px] font-extrabold tracking-[0.3em] uppercase text-purple-500 mb-6">Projects</h4>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li><a href="https://dezanosaurus.vercel.app/" class="hover:text-white transition-colors">From Secondhand to Classy</a></li>
+                    <li><a href="https://artantinayla.github.io/Tugas2_Bootstrap/" class="hover:text-white transition-colors">School Website</a></li>
+                    <li><a href="https://artantinayla.github.io/tugas3_bootstrap/" class="hover:text-white transition-colors">Environment</a></li>
+                    <li><a href="https://artantinayla.github.io/tugas4/" class="hover:text-white transition-colors">Globe Trekker</a></li>
+                    <li><a href="https://artantinayla.github.io/tugas5/" class="hover:text-white transition-colors">FatShop</a></li>
+                </ul>
+            </div>
+
+            <div class="reveal-footer" style="transition-delay: 0.3s;">
+                <h4 class="text-[10px] font-extrabold tracking-[0.3em] uppercase text-purple-500 mb-6">Follow Me</h4>
+                <div class="flex items-center gap-4">
+                    <a href="https://www.tiktok.com/@moodofrose" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 hover:bg-black hover:scale-110 transition-all duration-300">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                    <a href="https://www.instagram.com/an_wulandari/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 hover:bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-600 hover:scale-110 transition-all duration-300">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://github.com/artantinayla" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 hover:bg-[#24292e] hover:scale-110 transition-all duration-300">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@mood.ofrose" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 hover:bg-red-600 hover:scale-110 transition-all duration-300">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-8 border-t border-white/5 text-center reveal-footer" style="transition-delay: 0.4s;">
+            <p class="text-[11px] text-gray-500 tracking-widest font-medium">
+                © 2026 Artanti. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+   <script src="script.js"></script> 
+
+</body>
+</html>
